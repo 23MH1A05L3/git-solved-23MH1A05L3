@@ -1,0 +1,30 @@
+* 01d092a (HEAD -> main, origin/main) docs: Add changelog
+* a506aec docs: Add GIT_JOURNEY.md documenting Git workflow and testing process
+* 4702fcc docs: Update README
+*   d7fbc40 Merge pull request #2 from 23MH1A05L3/feature/new-feature
+|\  
+| * 38c5936 (origin/feature/new-feature, feature/new-feature) feat: Add new feature
+* |   e287097 Merge pull request #1 from 23MH1A05L3/feature/another-feature
+|\ \  
+| * | 63b7838 feat: Add test feature
+|/ /  
+| | * 5456a38 (feature/another-feature) chore: add package-lock.json
+| | * ae0d6cc (origin/feature/another-feature) feat: Add test feature
+| | * 00d1440 (tag: v1.1.0, tag: v1.0.0) docs: Update README
+| |/  
+|/|   
+* | 8c070df feat: Add new feature
+* | 6c0704f docs: Add FAQ section
+|/  
+* d047122 add server.js file and update package.json
+*   a2a0ac0 merge: Resolve all conflicts between main and conflict-simulator branches
+|\  
+| * d3dd9b2 (origin/conflict-simulator, instructor/conflict-simulator, conflict-simulator) updating conflict-simulator
+* |   695a8ab merge: Resolve all conflicts between main and dev branches
+|\ \  
+| * | 02011a5 (origin/dev, instructor/dev, dev) updating dev
+| |/  
+* | 0312c6f (instructor/main, instructor/HEAD) updating main
+* | fadfd24 Revise README for DevOps Simulator project
+|/  
+* ae630eb Initial commit
