@@ -1,3 +1,4 @@
+# Production configuration (active)
 application:
   name: DevOpsSimulator
   version: 1.0.0
@@ -11,7 +12,7 @@ server:
 logging:
   level: INFO
   format: json
-  
+
 # Development configuration (enabled via environment variable)
 development:
   enabled: false
@@ -19,3 +20,52 @@ development:
   hot_reload: false
   debug_mode: false
   mock_apis: false
+
+# ---------------------------------------------------------------------
+# Experimental configuration (not production-ready)
+# These features are commented out or behind feature flags for testing.
+# ---------------------------------------------------------------------
+
+# application:
+#   version: 3.0.0-experimental
+#   environment: testing
+#   experimental_mode: true
+
+# server:
+#   port: 9000
+#   multi_port: [9000, 9001, 9002]
+
+# logging:
+#   level: TRACE
+#   format: structured
+#   output: /var/log/experimental.log
+#   ai_analysis: enabled
+
+# database:
+#   host: cluster.example.com
+#   port: 5432
+#   name: devops_experimental
+#   distributed: true
+
+# features:
+#   auto_scaling: advanced
+#   load_balancer: ai-optimized
+#   backup_enabled: true
+#   chaos_engineering: enabled
+
+# ai_features:
+#   predictive_scaling: true
+#   anomaly_detection: true
+#   auto_optimization: true
+#   model_version: "v2.1.0"
+
+# cloud_providers:
+#   - aws
+#   - azure
+#   - gcp
+#   - digitalocean
+
+# security:
+#   zero_trust: enabled
+#   encryption: AES-256
+#   audit_logging: comprehensive
