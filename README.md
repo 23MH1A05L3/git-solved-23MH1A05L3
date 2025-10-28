@@ -86,3 +86,4 @@ See:
 
 ## License
 MIT License
+## FAQ
